@@ -4,7 +4,7 @@
   "description": "Binaries for postgrest, just a test",
   "bin": {
     "postgrest-darwin": "bin/postgrest-darwin",
-    "postgrest-ubuntu": "bin/postgrest-ubuntu"
+    "postgrest-linux": "bin/postgrest-linux"
   },
   "main": "index.js",
   "scripts": {
