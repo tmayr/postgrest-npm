@@ -1,7 +1,11 @@
 {
-  "name": "postrest-npm",
+  "name": "postgrest-npm",
   "version": "1.0.0",
   "description": "Binaries for postgrest, just a test",
+  "bin": {
+    "postgrest-darwin": "bin/postgrest-darwin",
+    "postgrest-ubuntu": "bin/postgrest-ubuntu"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
